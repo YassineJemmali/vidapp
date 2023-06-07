@@ -1,0 +1,66 @@
+/* Pour les filtres */
+
+.tousLesFiltres {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tousLesFiltres > div {
+  background-color: #f1f1f1;
+  width: 80%;
+  font-size: 30px;
+}
+
+/* Pour les movie list */
+
+.tousLesFilms {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tousLesFilms > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+/* Pour la movie card */
+
+a {
+  color: aliceblue;
+}
+
+a:hover {
+  color: rgb(222, 217, 227);
+}
+
+.CarteTexte {
+  font-size: 14px;
+}
+
+/* pour le input des films*/
+
+.tousLesAjout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tousLesAjout > div,
+p {
+  width: 90%;
+  font-size: 15px;
+}
+
+/* Pour le select */
+
+.tousLesSelect {
+  width: 90%;
+  font-size: 15px;
+}
