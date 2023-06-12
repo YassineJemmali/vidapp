@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
 import ".///components/inputMovie.css";
-import NavMenu from "./builder/MonMenu";
 import Filter from "./components/Filter";
 import LesMovies from "./components/LesMovies";
 import MovieList from "./components/MovieList";
@@ -21,7 +20,6 @@ function App() {
 
   return (
     <div className="App">
-      <NavMenu />
       <br />
       <Filter setrecherche={setRecherche} setetoile={setEtoile} />
       <br />

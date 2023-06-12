@@ -7,9 +7,9 @@ function MonMenu() {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">VidApp</Navbar.Brand>
+          <Navbar.Brand href="http://localhost:3000/">VidApp</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Accueil</Nav.Link>
+            <Nav.Link href="http://localhost:3000/">Accueil</Nav.Link>
             <Nav.Link href="#features">Les films</Nav.Link>
             <Nav.Link href="#pricing">Les séries</Nav.Link>
           </Nav>

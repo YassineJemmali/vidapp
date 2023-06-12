@@ -2,6 +2,7 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Rating from "@mui/material/Rating";
+import { Link } from "react-router-dom";
 
 const MovieCard = ({ leFilm }) => {
   // les variables du films
@@ -17,14 +18,7 @@ const MovieCard = ({ leFilm }) => {
           <Rating name="read-only" value={leFilm.laNote} readOnly />
           <Card.Text className="CarteTexte">Genre : {leFilm.leGenre}</Card.Text>
           <Button variant="primary">
-            <a
-              alt="Vidéo du film"
-              href={leFilm.laVideo}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Regarder
-            </a>{" "}
+            <Link to={`/films/${leFilm.id}`}>Voir Plus</Link>
           </Button>
         </Card.Body>
       </Card>
