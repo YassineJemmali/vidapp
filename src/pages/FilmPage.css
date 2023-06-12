@@ -3,10 +3,24 @@ img {
 }
 
 .filmbody {
-  width: 70%;
-  margin: 50px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  background-color: rgba(0, 0, 0, 0.782);
+  color: aliceblue;
+  padding: 10px;
 }
 
 p {
   font-size: large;
+  padding: 10px;
+}
+
+.cefilm {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }

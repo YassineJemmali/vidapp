@@ -19,17 +19,17 @@ const FilmPage = () => {
 
   return specifiqueFilm.map((el) => {
     return (
-      <div>
+      <div className="cefilm">
         <img src={el.leUrlImage} alt="imagefilm" />
         <div className="filmbody">
           <h1>Nom du film : {el.titre}</h1>
           <p>La présentation : {el.présentation}</p>
           <p>L'année du film : {el.annee}</p>
-          <p>La Note : </p>
+          <p>La Note du film : </p>
           <p>
             <Rating name="read-only" value={el.laNote} readOnly />
           </p>
-          <p>Le Genre : {el.leGenre}</p>
+          <p>Le Genre du film : {el.leGenre}</p>
           <h2>Regarder la vidéo du film</h2>
         </div>
         <iframe
